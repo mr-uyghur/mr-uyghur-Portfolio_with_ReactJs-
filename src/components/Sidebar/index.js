@@ -6,18 +6,15 @@ import {
   faGithub,
  
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope,faMugSaucer } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faMugHot,faAtom } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-      <FontAwesomeIcon icon={faMugSaucer}  size={ 100 } color="#4d4d4e" />
+      <FontAwesomeIcon icon={faAtom}  size="3x" color="#345cc2" />
       </Link>
-
- 
- 
 
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">

@@ -89,7 +89,7 @@ const Contact = () => {
         </div>
         
         <div className="map-wrap">
-          <MapContainer center={[37.3, -121.8]} zoom={10}>
+          <MapContainer center={[37.40071, -122.091064]} zoom={10}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           
           
