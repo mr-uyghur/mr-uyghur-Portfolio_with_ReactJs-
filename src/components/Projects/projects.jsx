@@ -33,7 +33,17 @@ const Projects = () => {
               idx={15}
             />
           </h1>
-          <p>test</p>
+          <div style = {{display: 'flex', flexDirection: 'column'}}>
+          <h2  style = {{color: 'white'}}>Instagram Clone</h2>
+          <img style = {{width:'350px'}} src = "http://www.alihalmamat.com/media/images/insta.gif" alt = "project image"/>
+
+          <h2  style = {{color: 'white'}}>Plan your trip</h2>
+          <img style = {{width:'350px'}} src = "http://www.alihalmamat.com/media/images/trip_1.gif" alt = "project image"/>
+
+          <h2  style = {{color: 'white'}}>Carzone dealership ecomerce </h2>
+          <img style = {{width:'350px'}} src = "http://www.alihalmamat.com/media/images/test4.gif" alt = "project image"/>
+
+          </div>
         </div>
 
         <div className="stage-cube-cont">
